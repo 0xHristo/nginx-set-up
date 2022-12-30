@@ -1,5 +1,5 @@
 const { execSync } = require("child_process")
-const { writeFileSync, readFileSync } = require("fs")
+const { writeFileSync, readFileSync, existsSync } = require("fs")
 
 const sitesAvailableDIR = "/etc/nginx/sites-available"
 const sitesEnabledDIR = "/etc/nginx/sites-enabled"
